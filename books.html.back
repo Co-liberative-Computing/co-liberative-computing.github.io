@@ -1,0 +1,165 @@
+---
+title: Books
+call_to_action:
+background_image_path:
+large_header: false
+show_in_navigation: false
+navigation_order: 4
+---
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="/uploads/book_algorithms_oppression.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="gallery">
+<figure class="gallery__item gallery__item--1">
+<img src="/uploads/book_data_feminism.jpg" class="gallery__img">
+<div class="image-caption">Data Feminism</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--2">
+<img src="/uploads/book_algorithms_oppression.jpg" class="gallery__img">
+<div class="image-caption">Algorithm of Oppression</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--3">
+<img src="/uploads/book_auni.jpg" class="gallery__img">
+<div class="image-caption">Artificial Unintelligence</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--4">
+<img src="/uploads/book_auto_inequality.jpg" class="gallery__img">
+<div class="image-caption">Automating Inequality</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--5">
+<img src="/uploads/book_weapons_math.jpg" class="gallery__img">
+<div class="image-caption">Weapons of Math Destruction</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--6">
+<img src="/uploads/book_race_technology.jpg" class="gallery__img">
+<div class="image-caption">Race After Technology</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--7">
+<img src="/uploads/book_big_nine.jpg" class="gallery__img">
+<div class="image-caption">The Big Nine</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--8">
+<img src="/uploads/book_digital_capitalism.jpg" class="gallery__img">
+<div class="image-caption">Digital Capitalism and Distributive Forces</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--9">
+<img src="/uploads/book_ethical_algorithm.jpg" class="gallery__img">
+<div class="image-caption">The Ethical Algorithm</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--10">
+<img src="/uploads/book_sorting.jpg" class="gallery__img">
+<div class="image-caption">Sorthing Things Out</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--11">
+<img src="/uploads/book_atlas_ai.jpg" class="gallery__img">
+<div class="image-caption">Atlas of AI</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--12">
+<img src="/uploads/book_darwin.jpg" class="gallery__img">
+<div class="image-caption">Ghost Stories of Darwin</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--13">
+<img src="/uploads/book_invisible_women.jpg" class="gallery__img">
+<div class="image-caption">Invisible Women</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--14">
+<img src="/uploads/book_pedagogy.jpg" class="gallery__img">
+<div class="image-caption">Pedagogy of Oppressed</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--15">
+<img src="/uploads/book_grading_equity.jpg" class="gallery__img">
+<div class="image-caption">Grading for Equity</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--16">
+<img src="/uploads/book_intersectionality.jpg" class="gallery__img">
+<div class="image-caption">Intersectionality as Critical Theory</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--17">
+<img src="/uploads/book_unlocking_clubhouse.jpg" class="gallery__img">
+<div class="image-caption">Unlocing the Clubhouse: Women in Computing</figcaption>
+</figure>
+
+<figure class="gallery__item gallery__item--18">
+<img src="/uploads/book_talking.jpg" class="gallery__img">
+<div class="image-caption">Talking to My Daughter About the Economy</figcaption>
+</figure>
+
+</div>
