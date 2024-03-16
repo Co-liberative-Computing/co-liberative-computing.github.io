@@ -242,6 +242,14 @@ navigation_order: 4
   </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://library.oapen.org/handle/20.500.12657/53100">
+      <img src="/uploads/book_digital_capitalism.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Digital Capitalism and Distributive Forces</div>
+  </div>
+</div>
 
 <div class="responsive">
   <div class="gallery">
@@ -254,137 +262,12 @@ navigation_order: 4
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Yanis-Varoufakis/dp/1847927270">
-      <img src="/uploads/book_techno_feudalism.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Techno Feudalism<br>.</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.com/Hello-World-Being-Human-Algorithms/dp/039363499X">
-      <img src="/uploads/book_hello_world.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Hello World<br>.</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.com/Predict-Surveil-Discretion-Future-Policing/dp/0190684097">
-      <img src="/uploads/book_predict.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Predict and Surveil<br>.</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://designjustice.mitpress.mit.edu/">
-      <img src="/uploads/book_design_justice.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Design Justice<br>.</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Ashley-Shew/dp/1324036664">
-      <img src="/uploads/book_technoableism.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Against Technoableism</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.com/Socially-Responsible-Ai-Theories-Practices/dp/981126662X">
-      <img src="/uploads/book_social_ai.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Socially Responsible AI</div>
-  </div>
-</div>
-
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.com/Technology-Virtues-Philosophical-Future-Wanting/dp/019049851X">
-      <img src="/uploads/book_tech_and_virtues.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Technology and the Virtues</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Sara-Wachter-Boettcher/dp/0393356043">
-      <img src="/uploads/book_technically_wrong.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Technically Wrong<br>.</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Changed-cheque-release-payment-Andersen/dp/1611322936">
-      <img src="/uploads/book_stat.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Indigenous Statistics<br>.</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.com/Algorithm-Decides-Hired-Monitored-Promoted/dp/0306827344">
-      <img src="/uploads/book_the_algorithm.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">The Algorithm<br>.</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Silvia-Federici/dp/1629638579">
-      <img src="/uploads/book_zero.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Revolution at Point Zero</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://library.oapen.org/handle/20.500.12657/53100">
-      <img src="/uploads/book_digital_capitalism.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Digital Capitalism and Distributive Forces</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.amazon.se/-/en/Shoshana-Zuboff/dp/1610395697">
-      <img src="/uploads/book_age.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">The Age of Surveillance Capitalism</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
     <a target="_blank" href="https://www.amazon.se/-/en/Yanis-Varoufakis/dp/1847924441">
       <img src="/uploads/book_talking.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div class="desc">Talking To My Doughter About The Economy</div>
   </div>
 </div>
-
-
-
 
 
 <div class="clearfix"></div>
