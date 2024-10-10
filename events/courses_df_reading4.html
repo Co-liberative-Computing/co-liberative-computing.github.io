@@ -1,0 +1,42 @@
+---
+title: Reading Assignment 4
+call_to_action:
+background_image_path:
+large_header: false
+show_in_navigation: false
+navigation_order: 2
+---
+
+<div class="editable">
+    <br>
+<p><img src="/uploads/assignment.jpg" width="960" height="300"></p>
+<p align="justify" style="font-family:'Arial';font-size:24px;">
+<b>Reading and Implementation on Data Bias</b>
+</p>
+<p align="justify" style="font-family:'Arial';font-size:20px;">
+For this assignment, please read the following book chapters and articles:<br>
+1. Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification, Joy Buolamwini and Timnit Gebru, PMLR, 2018<br>
+2. Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey, Max Hort et al., ACM Journal on Responsible Computing, 2024<br>
+3. Assessing and Remedying Coverage for a Given Dataset, Abolfazl Asudeh et al., IEEE ICDE, 2019<br>
+4. AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias, Rachel KE Bellamy et al., arXiv preprint, 2018<br>
+5. Practical Fairness, Aileen Nielsen (ch. 3-4)<br>
+6. Machine Bias, Julia Angwin et al., ProPublica, 2016 [<a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">link</a>]<br>
+7. AI Fairness 360 [<a href="https://aif360.res.ibm.com/">link</a>]<br>
+After completing these readings, please critical answer the following questions:<br>
+<br>
+<b>Based on paper [1], answer the following questions</b><br>
+1. What are the suggested solutions by the paper to mitigatge bias? What are the challenges of implementing such solutions in practice, particularly for commercial AI developers?<br>
+2. The study highlights the importance of intersectional evaluations. How can developers and researchers ensure that AI systems are rigorously tested across multiple demographic axes without oversimplifying complex identities?<br>
+<br>
+<b>Based on papers [2], answer the following questions</b><br>
+Paper [2] considers four approaches for pre-processing-based bias mitigation (see Section 4), which are: (1) Relabeling and Perturbation, (2) Sampling, (3) Latent Variables, and (4) Representation. Please provide a detailed explanation of each of these approaches, focusing on how they work to mitigate bias in machine learning classifiers. Then, by defining a specific use case (e.g., hiring prediction, credit approval, healthcare diagnosis) explain how each approach could be applied. Explain the advantages and disadvantages of using each approach in your chosen use case (for example, by considering factors such as effectiveness in bias reduction, impact on data quality, scalability and complexity, etc.)<br>
+<br>
+<b>Based on papers [3], [4], [5], [6], and [7], answer the following questions</b><br>
+Using the concepts presented in paper [3], analyze and identify biases within the COMPAS dataset [6]. Your task is to evaluate coverage issues and fairness using the AIF360 library [4][5][7]. Specifically, you should:<br>
+1. <b>Assess Coverage:</b> Investigate the distribution of subpopulations based on protected attributes (e.g., race, gender) as well as the distribution of the outcome variable (recidivism) across these groups in the COMPAS dataset. Identify any underrepresented or missing subpopulations. Determine whether the distribution of favorable vs. unfavorable outcomes is balanced across protected attributes.<br>
+2. <b>Measure Bias:</b> Compute multiple fairness metrics (e.g., disparate impact, statistical parity difference, equal opportunity difference) for race and gender. Compare and contrast the results. Which metric provides the most meaningful insight into bias? Do these metrics align, or do they reveal different aspects of bias?<br>
+3. <b>Train a Classifier:</b> Train a logistic regression model to predict recidivism using the dataset. After training the model, evaluate its predictions for bias using fairness metrics (e.g., disparate impact, statistical parity difference, equal opportunity difference). Assess the trade-off between fairness and accuracy. How does the model perform in terms of accuracy for privileged vs. unprivileged groups? Is improving fairness always at odds with model performance? Does your model exhibit any bias across groups?<br>
+4. <b>Apply Bias Mitigation Techniques:</b> Apply the following bias mitigation techniques, oversampling by duplicating instances and the Synthetic Minority Oversampling Technique (SMOTE), to reduce bias in your model. Compare the effectiveness of these techniques in reducing bias. Do these bias mitigation strategies lead to better outcomes and reduce bias across all groups??<br>
+</p>
+</div>
+
