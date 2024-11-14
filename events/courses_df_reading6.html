@@ -17,11 +17,10 @@ navigation_order: 2
 For this assignment, please read the following book chapters and articles:<br>
 1. Demarginalizing the Intersection of Race and Sex, Kimberlé Crenshaw, Feminist Legal Theories. Routledge, 2013<br>
 2. Are "Intersectionally Fair" AI Algorithms Really Fair to Women of Color? A Philosophical Analysis, Youjin Kong, ACM FAccT, 2022<br>
-3. Studying Up Machine Learning Data: Why Talk About Bias When We Mean Power?, Milagros Miceli et al., ACM HCI, 2022<br>
-4. Factoring the Matrix of Domination: A Critical Review and Reimagination of Intersectionality in AI Fairness, Anaelia Ovalle et al., AAAI/ACM AIES, 2023<br>
-5. Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness, Michael Kearns et al., PMLR, 2018<br>
-6. Multicalibration: Calibration for the (Computationally-Identifiable) Masses, Ursula Hébert-Johnson et al., PMLR, 2018<br>
-7. Differential Fairness: An Intersectional Framework for Fair AI, Rashidul Islam et al., Entropy, 2023<br>
+3. Factoring the Matrix of Domination: A Critical Review and Reimagination of Intersectionality in AI Fairness, Anaelia Ovalle et al., AAAI/ACM AIES, 2023<br>
+4. Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness, Michael Kearns et al., PMLR, 2018<br>
+5. Multicalibration: Calibration for the (Computationally-Identifiable) Masses, Ursula Hébert-Johnson et al., PMLR, 2018<br>
+6. Differential Fairness: An Intersectional Framework for Fair AI, Rashidul Islam et al., Entropy, 2023<br>
 After completing these readings, please critical answer the following questions.<br>
 <br>
 <b>Based on paper [1], answer the following questions:</b><br>
@@ -35,20 +34,16 @@ After completing these readings, please critical answer the following questions.
 3. The author advocates for an intersectional approach to fairness, emphasizing group-based identities and their overlapping oppressions. Could an emphasis on intersectional fairness unintentionally obscure the unique needs of individuals within these intersections? How might an algorithm balance the needs of an intersectional group with the specific experiences of individuals, particularly those who may belong to unique, less-recognized intersections?<br>
 <br>
 <b>Based on paper [3], answer the following questions:</b><br>
-1. The paper argues that traditional discussions around "bias" in machine learning fail to address underlying power dynamics. According to the authors, what are the limitations of framing fairness issues in machine learning primarily in terms of bias? How does a power-centered perspective shift our understanding of these issues?<br>
-2. What framework or set of principles do the authors propose for establishing power-sensitive data practices in machine learning? How might these principles transform current data practices, and what potential barriers could arise in implementing them within industry or research settings?<br>
-<br>
-<b>Based on paper [4], answer the following questions:</b><br>
 1. The authors advocate for using the matrix of domination to guide AI fairness practices. What challenges might arise when attempting to operationalize this framework in AI systems? How could these challenges affect the effectiveness of AI fairness efforts, and what solutions, if any, do the authors propose to address these challenges?<br>
 2. How do the authors incorporate the concept of power into their vision of intersectional fairness? What new responsibilities does this power-centered focus place on AI developers, researchers, and policymakers, and what ethical tensions might emerge from these responsibilities?<br>
 3. The authors critique traditional AI fairness metrics (e.g., demographic parity, equal opportunity) through the lens of the matrix of domination. What specific limitations do they identify in these metrics, and how does the matrix of domination framework offer a deeper understanding of fairness that extends beyond these metrics?<br>
 <br>
-<b>Based on papers [5-7], answer the following questions:</b><br>
+<b>Based on papers [4-6], answer the following questions:</b><br>
 Using AIF360 library, evaluate the COMPAS model's performance for intersectional biases based on gender and race across four fairness algorithms:<br>
-<b>Statistical Parity Subgroup Fairness [5]:</b> Measure the proportion of favorable outcomes across intersectional subgroups (e.g., gender × race).<br>
-<b>False Positive Rate Subgroup Fairness [5]:</b> Analyze false positive rates for each subgroup to uncover disparities, especially critical in the criminal justice context.<br>
-<b>Multicalibration Fairness [6]:</b> Apply multicalibration fairness to examine if the model is calibrated for each intersectional subgroup.<br>
-<b>Differential Fairness [7]:</b> Use differential fairness to measure fairness across intersectional groups, considering multiple overlapping identities.<br>
+<b>Statistical Parity Subgroup Fairness [4]:</b> Measure the proportion of favorable outcomes across intersectional subgroups (e.g., gender × race).<br>
+<b>False Positive Rate Subgroup Fairness [4]:</b> Analyze false positive rates for each subgroup to uncover disparities, especially critical in the criminal justice context.<br>
+<b>Multicalibration Fairness [5]:</b> Apply multicalibration fairness to examine if the model is calibrated for each intersectional subgroup.<br>
+<b>Differential Fairness [6]:</b> Use differential fairness to measure fairness across intersectional groups, considering multiple overlapping identities.<br>
 Note that AIF360 doesn't directly support Multicalibration Fairness or Differential Fairness, so you need to approximate these concepts. After identifying biases, select and apply two bias mitigation techniques from the following list to reduce observed biases while maintaining model performance:<br>
 <b>Pre-processing techniques</b> (e.g., Reweighing, Optimized Preprocessing).<br>
 <b>In-processing techniques</b> (e.g., Adversarial Debiasing, Prejudice Remover).<br>
