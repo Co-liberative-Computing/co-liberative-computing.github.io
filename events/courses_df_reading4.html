@@ -1,0 +1,46 @@
+---
+title: Reading Assignment 4
+call_to_action:
+background_image_path:
+large_header: false
+show_in_navigation: false
+navigation_order: 2
+---
+
+<div class="editable">
+    <br>
+<p><img src="/uploads/assignment.jpg" width="960" height="300"></p>
+<p align="justify" style="font-family:'Arial';font-size:24px;">
+<b>Reading and Implementation on Data Bias</b>
+</p>
+<p align="justify" style="font-family:'Arial';font-size:20px;">
+For this assignment, please read the following book chapters and articles:<br>
+1. Artificial Intelligence and Inclusion: Formerly Gang-Involved Youth as Domain Experts for Analyzing Unstructured Twitter Data, William R. Frey, , et al., Social Science Computer Review, 2020<br>
+2. Gender Bias and Stereotypes in Large Language Models, Hadas Kotek et al., ACM Collective Intelligence Conference, 2023<br>
+3. Cultural Bias and Cultural Alignment of Large Language Models, Yan Tao et al., PNAS nexus, 2024<br>
+4. Assessing and Remedying Coverage for a Given Dataset, Abolfazl Asudeh et al., IEEE ICDE, 2019<br>
+5. Machine Bias, Julia Angwin et al., ProPublica, 2016 [<a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">link</a>]<br>
+
+After completing these readings, please critical answer the following questions.<br>
+<br>
+<b>Based on paper [1], answer the following questions:</b><br>
+1. The authors emphasize that there may not be one correct interpretation of a tweet. Using the case examples in the paper, discuss how ambiguity itself becomes a source of bias in AI systems that demand fixed labels. And, how do the authors attempt to manage that ambiguity?<br>
+2. The authors position inclusion of domain experts as a way to make AI systems fairer. Does inclusion within an unchanged system risk legitimizing its underlying logic?<br>
+<br>
+<b>Based on paper [2], answer the following questions:</b><br>
+1. The authors analyze model behavior when associating occupations with gender. What patterns do they observe in LLMs assign gendered roles to different professions? How do these patterns reflect deeper imbalances or stereotypes embedded in the model's training data?<br>
+2. The paper reports that small changes in prompt wording can alter the model's gender associations. Identify one example of this sensitivity from the study. What does it reveal about the instability of fairness testing in LLMs?<br>
+<br>
+<b>Based on paper [3], answer the following questions:</b><br>
+1. The authors show that asking the model to respond as if from a specific country improves alignment for many nations but worsens it for others. How do the authors interpret this paradox, and what does it imply about the internal cultural representation of LLMs?<br>
+2. The authors explains that cultural alignment is essential to distribute AI benefits more evenly across societies. Based on their evidence, does cultural alignment actually equalize representation, or does it simply adjust the model to mimic global diversity on Western terms? What might a more justice-oriented approach to cultural alignment look like?<br>
+<br>
+<b>Based on paper [4] and link [5], answer the following questions:</b><br>
+Your task is to evaluate coverage issues [4] of COMPAS dataset [5] using an existing Python fairness library, e.g., <a href="https://aif360.readthedocs.io/en/stable/">AIF360</a> or <a href="https://fairlearn.org/">Fairlearn</a>. Specifically, you should:<br>
+1. <b>Assess Coverage:</b> Investigate the distribution of sub-populations based on protected attributes (e.g., race, gender) as well as the distribution of the outcome variable (recidivism) across these groups in the COMPAS dataset. Identify any underrepresented or missing subpopulations.<br>
+2. <b>Measure Bias:</b> Compute the following fairness metrics for race and gender: (i) <b>statistical parity</b> to measure the difference in favorable outcomes between privileged and unprivileged groups, (ii) <b>predictive parity</b> that assesses whether the probability of a correct positive prediction (i.e., predicting recidivism for those who reoffend) is the same for different groups, and (iii) <b>equalized odds</b> that requires both true positive rates (TPR) and false positive rates (FPR) be the same across groups. Compare and contrast the results. Which metric provides the most meaningful insight into bias? Do these metrics align, or do they reveal different aspects of bias?<br>
+3. <b>Train a Classifier:</b> Train a logistic regression model to predict recidivism using the dataset. After training the model, evaluate its predictions for bias using fairness metrics defined at step 2.<br>
+4. <b>Apply Bias Mitigation Techniques:</b> Apply the following pre-processing bias mitigation techniques to reduce bias in your model: (i) <b>reweighting</b> that adjusts the weights of individuals in the dataset to ensure that privileged and unprivileged groups receive equal consideration during model training, (ii) <b>disparate impact remover</b> that modifies feature values to reduce the impact of protected attributes (such as race and gender) on the predictions, and (iii) <b>learning fair representations</b> that learns a new, fair feature representation of the data. Compare the effectiveness of these techniques in reducing bias. Do these bias mitigation strategies lead to better outcomes and reduce bias across all groups?<br>
+</p>
+</div>
+
