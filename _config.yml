@@ -26,10 +26,10 @@ social:
 timezone: Etc/UTC
 
 paginate: 10
-paginate_path: "/events/:num/"
+paginate_path: "/blog/:num/"
 
-#collections:
-#  - "staff_members"
+collections:
+  - "staff_members"
 
 defaults:
   -
