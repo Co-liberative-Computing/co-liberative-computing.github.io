@@ -14,13 +14,14 @@ navigation_order: 7
 		<li class="staff">
 			<div class="staff-details">
 				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
+					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="150" height="150">
 				</div>
 				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li>{{ member.page }}</li>
-					<li>{{ member.mail }}</li>
-				</ul>
+					<li><b>{{ member.name }}</b></li>
+					<li><medium>{{ member.title }}</medium></li>
+					<li><medium>{{ member.page }}</medium></li>
+					<li><medium>{{ member.mail }}</medium></li>
+					</ul>
 			</div>
 		</li>
 	{% endfor %}
