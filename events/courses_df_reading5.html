@@ -1,0 +1,46 @@
+---
+title: Reading Assignment 5
+call_to_action:
+background_image_path:
+large_header: false
+show_in_navigation: false
+navigation_order: 2
+---
+
+<div class="editable">
+    <br>
+<p><img src="/uploads/assignment.jpg" width="960" height="300"></p>
+<p align="justify" style="font-family:'Arial';font-size:24px;">
+<b>Reading and Implementation on Model Bias</b>
+</p>
+<p align="justify" style="font-family:'Arial';font-size:20px;">
+For this assignment, please read the following book chapters and articles:<br>
+1. Fairness and Machine Learning, Solon Barocas et al. (ch. 3)<br>
+2. Fairness Definitions Explained, Sahil Verma et al., IEEE/ACM FairWare, 2018<br>
+3. On the Apparent Conflict Between Individual and Group Fairness, Reuben Binns, ACM FAcct, 2020<br>
+4. Machine Bias, Julia Angwin et al., ProPublica, 2016 [<a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">link</a>]<br>
+After completing these readings, please critical answer the following questions.<br>
+<br>
+<b>Based on paper [1], show why <i>Independence</i>, <i>Separation</i>, and <i>Sufficiency</i> cannot all be satisfied together. Your analysis should include:</b><br>
+1. Proof that Independence and Separation are incompatible when base rates differ across groups.<br>
+2. Proof that Separation and Sufficiency are incompatible under differing base rates.<br>
+3. Proof that Independence and Sufficiency are mutually exclusive.<br>
+<br>
+<b>Based on paper [2], answer the following questions:</b><br>
+1. The paper argues that no single fairness definition can apply universally across all scenarios. Select a real-world application (e.g., healthcare, hiring, lending) and critically evaluate how one fairness definition might introduce challenges or limitations in this context.<br>
+2. Many real-world datasets suffer from class imbalance (e.g., far fewer positive outcomes in one class). How do the fairness definitions discussed in the paper (such as equal opportunity or demographic parity) handle imbalanced datasets? Are these fairness definitions robust to imbalance, or do they require modifications?<br>
+<br>
+<b>Based on paper [3], answer the following questions:</b><br>
+1. Define individual fairness and group fairness as presented in the paper. How does the papers describe the tension between these two concepts, and why are they often considered in conflict in fairness literature?<br>
+2. According to the paper, the apparent conflict between individual and group fairness is context-dependent. Select a real-world application (e.g., hiring, college admissions, criminal justice, or loan approvals) and discuss how you would navigate the trade-offs between individual and group fairness in this specific context.<br>
+<br>
+<b>Based on article [4] answer the following questions:</b><br>
+This assignment continues from the programming task in <a href="/events/courses_df_reading4/">Reading Assignment 4</a>. This time, you will explore how the COMPAS algorithm performs with respect to three key fairness criteria: <i>Independence</i>, <i>Separation</i>, and <i>Sufficiency</i>. In addition, you will investigate how to mitigate bias using both in-processing and post-processing techniques in code. You may use AIF360, FairLearn, or any other tools of your choice.<br>
+1. <b>Independence (Statistical Parity):</b> analyze whether the COMPAS algorithm’s predictions are independent of race. In other words, check if the likelihood of a positive outcome (high-risk prediction) is the same across different racial groups, regardless of their true recidivism status. How well does the COMPAS algorithm satisfy the Independence criterion?<br>
+2. <b>Separation (Equalized Odds):</b> separation ensures that error rates are similar for all groups, so examine whether the COMPAS algorithm satisfies separation by comparing the false positive rates (FPR) and false negative rates (FNR) across racial groups. Does the COMPAS algorithm have similar FPR and FNR across racial groups?<br>
+3. <b>Sufficiency (Predictive Parity):</b> investigate whether the COMPAS algorithm demonstrates predictive parity, meaning that the predicted risk scores are equally accurate for different racial groups. Does the algorithm meet the Sufficiency criterion in terms of predictive accuracy across racial groups?<br>
+4. <b>Ethical Considerations:</b> based on your results, which fairness dimension(s) should be prioritized in redesigning the COMPAS algorithm, and why?<br>
+5. <b>Bias mitigation:</b> using your selected programming tools (e.g., AIF360 or FairLearn), explore available in-processing (e.g., adversarial debiasing, prejudice remover, and meta fair classifier) and post-processing (e.g., equalized odds post-processing and calibrated equalized odds post-processing) bias mitigation algorithms and apply them to the COMPAS dataset. How did applying this method affect the fairness dimensions (Independence, Separation, Sufficiency) in the COMPAS algorithm?
+</p>
+</div>
+
