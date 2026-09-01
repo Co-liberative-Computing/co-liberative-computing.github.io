@@ -9,19 +9,54 @@ navigation_order: 7
 
 <p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
 
+<h3>Current members</h3>
+
+{% assign current_members = site.staff_members | where: "status", "current" %}
+
 <ul class="staff-list">
-	{% for member in site.staff_members %}
+	{% for member in current_members %}
 		<li class="staff">
 			<div class="staff-details">
 				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="150" height="150">
+					<img src="{{ member.image }}"
+						 alt="Staff photo for {{ member.name }}"
+						 width="150"
+						 height="150">
 				</div>
+
 				<ul class="staff-info">
 					<li><b>{{ member.name }}</b></li>
 					<li><medium>{{ member.title }}</medium></li>
 					<li><medium>{{ member.page }}</medium></li>
 					<li><medium>{{ member.mail }}</medium></li>
-					</ul>
+				</ul>
+			</div>
+		</li>
+	{% endfor %}
+</ul>
+
+
+<h3>Old members</h3>
+
+{% assign old_members = site.staff_members | where: "status", "old" %}
+
+<ul class="staff-list">
+	{% for member in old_members %}
+		<li class="staff">
+			<div class="staff-details">
+				<div class="staff-image">
+					<img src="{{ member.image }}"
+						 alt="Staff photo for {{ member.name }}"
+						 width="150"
+						 height="150">
+				</div>
+
+				<ul class="staff-info">
+					<li><b>{{ member.name }}</b></li>
+					<li><medium>{{ member.title }}</medium></li>
+					<li><medium>{{ member.page }}</medium></li>
+					<li><medium>{{ member.mail }}</medium></li>
+				</ul>
 			</div>
 		</li>
 	{% endfor %}
