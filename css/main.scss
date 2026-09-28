@@ -9,3 +9,42 @@ $mobile-break: 700px;
 @import "layout";
 @import "forms";
 @import "cloudcannon";
+
+.site-header {
+    background-color: #eeeeef !important;
+    background-image: none !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    padding-top: 10px !important;
+    padding-bottom: 6px !important;
+}
+
+.site-header .container {
+    background-color: #eeeeef !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 0 !important;
+}
+
+.site-logo {
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.site-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+.site-header nav {
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+
